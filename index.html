@@ -1,0 +1,104 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple CSS Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mali&family=Montserrat:wght@200&family=Prompt&display=swap" rel="stylesheet">
+    
+   <style>
+    body{
+        /* font-family: 'Montserrat', sans-serif; */
+        font-family: 'Mali', cursive;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    nav{
+        background-color:#F4E869;
+        color: black;
+        padding:  10px 50px 10px 50px ;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        right: 0;
+        left: 0;
+
+    }
+    .logo{
+        margin-left: 20px;
+    }
+    nav a{
+        color: black;
+        text-decoration: none;
+        display: inline-block;
+    }
+    #content{
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 90vh;
+    }
+    footer{
+        background-color: #E0F4FF;
+        color: black;
+        text-align: center;
+        padding: 20px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+    a.btn{
+        height: 40px;
+        width: 150px;
+        margin-top: 15px;
+        border-radius: 50px;
+        background-color:#87C4FF;
+        color: black;
+        border: solid 1px #333;
+
+        padding-top: 18px;
+        text-align: center;
+        text-decoration: none;
+    }
+    a.btn:hover{
+        background-color: #FFEED9;
+        color:black;
+    }
+   </style>
+
+
+<body>
+    <nav>
+        <div class="logo">
+            <!-- <img src="" alt="LOGO" width="50"> -->
+            LOGO
+        </div>
+        <div class="menu">
+            <a href="#home">Home</a>
+            <a href="page2.html">About</a>
+            <a href="#service">Service</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <main id="content">
+        <h1>สวัสดี</h1>
+        <p>ยินดีต้อนรับ
+        </p>
+      <a href=""class="btn">Stat Now</a>
+    </main>
+
+    <footer>
+        &copy; supreeys kalumpak
+    </footer>
+
+</body>
+
+</html>
